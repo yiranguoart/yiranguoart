@@ -1,3 +1,101 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Yiran Guo'
+theme = "huey"
+
+[menu]
+
+# Top Navigation
+
+[[menu.nav]]
+  identifier = 'moving-image'
+  name = 'Moving Image'
+  title = "Moving Image"
+  hasChildren = true
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'xiang'
+  name = 'Xiang'
+  title = "Xiang"
+  parent = "moving-image"
+  url = '/moving-image/xiang/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'composition-of-air'
+  name = 'Composition of Air'
+  title = "Composition of Air"
+  parent = "moving-image"
+  url = '/moving-image/composition-of-air/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'vj'
+  name = 'VJ'
+  title = "VJ"
+  parent = "moving-image"
+  url = '/moving-image/vj/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'works-on-paper'
+  name = 'Works on Paper'
+  title = "Works on Paper"
+  hasChildren = true
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'house'
+  name = 'House'
+  title = "House"
+  parent = "works-on-paper"
+  url = '/works-on-paper/house/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'Xiang Prints'
+  name = 'Xiang Prints'
+  title = "Xiang Prints"
+  parent = "works-on-paper"
+  url = '/works-on-paper/xiang-prints/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'Eggs'
+  name = 'Eggs'
+  title = "Eggs"
+  parent = "works-on-paper"
+  url = '/works-on-paper/eggs/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'Soft Landing'
+  name = 'Soft Landing'
+  title = "Soft Landing"
+  parent = "works-on-paper"
+  url = '/works-on-paper/soft-landing/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'objects'
+  name = 'Objects'
+  title = "Objects"
+  hasChildren = true
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'Ceramics'
+  name = 'Ceramics'
+  title = "Ceramics"
+  parent = "objects"
+  url = '/objects/ceramics/'
+  hasChildren = false
+  weight = 20
