@@ -33,11 +33,11 @@ theme = "huey"
   weight = 20
   
 [[menu.nav]]
-  identifier = 'vj'
-  name = 'VJ'
-  title = "VJ"
+  identifier = 'live-visuals'
+  name = 'Live Visuals'
+  title = "Live Visuals"
   parent = "moving-image"
-  url = '/moving-image/vj/'
+  url = '/moving-image/live-visuals/'
   hasChildren = false
   weight = 20
   
@@ -81,6 +81,33 @@ theme = "huey"
   title = "Soft Landing"
   parent = "works-on-paper"
   url = '/works-on-paper/soft-landing/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'Recycle'
+  name = 'Recycle'
+  title = "Recycle"
+  parent = "works-on-paper"
+  url = '/works-on-paper/recycle/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'Under the Banana Leaves, A Man'
+  name = 'Under the Banana Leaves, A Man'
+  title = "Under the Banana Leaves, A Man"
+  parent = "works-on-paper"
+  url = '/works-on-paper/under-the-banana-leaves-a-man/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'Monkey'
+  name = 'Monkey'
+  title = "Monkey"
+  parent = "works-on-paper"
+  url = '/works-on-paper/monkey/'
   hasChildren = false
   weight = 20
   
