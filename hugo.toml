@@ -47,18 +47,9 @@ theme = "huey"
   title = "Works on Paper"
   hasChildren = true
   weight = 20
-
-[[menu.nav]]
-  identifier = 'house'
-  name = 'House'
-  title = "House"
-  parent = "works-on-paper"
-  url = '/works-on-paper/house/'
-  hasChildren = false
-  weight = 20
   
 [[menu.nav]]
-  identifier = 'Xiang Prints'
+  identifier = 'xiang-prints'
   name = 'Xiang Prints'
   title = "Xiang Prints"
   parent = "works-on-paper"
@@ -67,7 +58,7 @@ theme = "huey"
   weight = 20
   
 [[menu.nav]]
-  identifier = 'Eggs'
+  identifier = 'eggs'
   name = 'Eggs'
   title = "Eggs"
   parent = "works-on-paper"
@@ -76,7 +67,7 @@ theme = "huey"
   weight = 20
   
 [[menu.nav]]
-  identifier = 'Soft Landing'
+  identifier = 'soft-landing'
   name = 'Soft Landing'
   title = "Soft Landing"
   parent = "works-on-paper"
@@ -85,7 +76,7 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'Recycle'
+  identifier = 'recycle'
   name = 'Recycle'
   title = "Recycle"
   parent = "works-on-paper"
@@ -94,7 +85,7 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'Pox'
+  identifier = 'pox'
   name = 'Pox'
   title = "Pox"
   parent = "works-on-paper"
@@ -103,7 +94,7 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'Under the Banana Leaves, A Man'
+  identifier = 'under-the-banana-leaves-a-man'
   name = 'Under the Banana Leaves, A Man'
   title = "Under the Banana Leaves, A Man"
   parent = "works-on-paper"
@@ -112,14 +103,77 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'Monkey'
+  identifier = 'monkey'
   name = 'Monkey'
   title = "Monkey"
   parent = "works-on-paper"
   url = '/works-on-paper/monkey/'
   hasChildren = false
   weight = 20
-  
+
+[[menu.nav]]
+  identifier = 'smells'
+  name = 'Smells'
+  title = "Smells"
+  parent = "works-on-paper"
+  url = '/works-on-paper/smells/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'recycle'
+  name = 'Recycle'
+  title = "Recycle"
+  parent = "works-on-paper"
+  url = '/works-on-paper/recycle/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'mono-prints'
+  name = 'Mono Prints'
+  title = "Mono Prints"
+  parent = "works-on-paper"
+  url = '/works-on-paper/mono-prints/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'gaze'
+  name = 'Gaze'
+  title = "Gaze"
+  parent = "works-on-paper"
+  url = '/works-on-paper/gaze/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'faces-in-my-studio'
+  name = 'Faces in My Studio'
+  title = "Faces in My Studio"
+  parent = "works-on-paper"
+  url = '/works-on-paper/faces-in-my-studio/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'butter-fly'
+  name = 'Butter Fly'
+  title = "Butter Fly"
+  parent = "works-on-paper"
+  url = '/works-on-paper/butter-fly/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'books'
+  name = 'Books'
+  title = "Books"
+  parent = "works-on-paper"
+  url = '/works-on-paper/books/'
+  hasChildren = false
+  weight = 20
+
 [[menu.nav]]
   identifier = 'objects'
   name = 'Objects'
