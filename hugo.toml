@@ -94,6 +94,15 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
+  identifier = 'Pox'
+  name = 'Pox'
+  title = "Pox"
+  parent = "works-on-paper"
+  url = '/works-on-paper/pox/'
+  hasChildren = false
+  weight = 20
+
+[[menu.nav]]
   identifier = 'Under the Banana Leaves, A Man'
   name = 'Under the Banana Leaves, A Man'
   title = "Under the Banana Leaves, A Man"
@@ -124,5 +133,14 @@ theme = "huey"
   title = "Ceramics"
   parent = "objects"
   url = '/objects/ceramics/'
+  hasChildren = false
+  weight = 20
+  
+[[menu.nav]]
+  identifier = 'Fabric'
+  name = 'Fabric'
+  title = "Fabric"
+  parent = "objects"
+  url = '/objects/fabric/'
   hasChildren = false
   weight = 20
