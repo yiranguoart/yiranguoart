@@ -16,8 +16,8 @@ theme = "huey"
   
 [[menu.nav]]
   identifier = 'xiang'
-  name = 'Xiang'
-  title = "Xiang"
+  name = 'Xiàng'
+  title = "Xiàng"
   parent = "moving-image"
   url = '/moving-image/xiang/'
   hasChildren = false
@@ -50,8 +50,8 @@ theme = "huey"
   
 [[menu.nav]]
   identifier = 'xiang-prints'
-  name = 'Xiang Prints'
-  title = "Xiang Prints"
+  name = 'Xiàng Prints'
+  title = "Xiàng Prints"
   parent = "works-on-paper"
   url = '/works-on-paper/xiang-prints/'
   hasChildren = false
@@ -166,19 +166,19 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'books'
-  name = 'Books'
-  title = "Books"
-  parent = "works-on-paper"
-  url = '/works-on-paper/books/'
-  hasChildren = false
-  weight = 20
-
-[[menu.nav]]
   identifier = 'objects'
   name = 'Objects'
   title = "Objects"
   hasChildren = true
+  weight = 20
+
+[[menu.nav]]
+  identifier = 'books'
+  name = 'Books'
+  title = "Books"
+  parent = "objects"
+  url = '/objects/books/'
+  hasChildren = false
   weight = 20
 
 [[menu.nav]]
