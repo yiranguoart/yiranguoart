@@ -191,10 +191,10 @@ theme = "huey"
   weight = 20
   
 [[menu.nav]]
-  identifier = 'Fabric'
-  name = 'Fabric'
-  title = "Fabric"
+  identifier = 'Soft Material'
+  name = 'Soft Material'
+  title = "Soft Material"
   parent = "objects"
-  url = '/objects/fabric/'
+  url = '/objects/soft-material/'
   hasChildren = false
   weight = 20
