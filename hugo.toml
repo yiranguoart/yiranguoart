@@ -94,29 +94,11 @@ theme = "huey"
   weight = 20
 
 [[menu.nav]]
-  identifier = 'under-the-banana-leaves-a-man'
-  name = 'Under the Banana Leaves, A Man'
-  title = "Under the Banana Leaves, A Man"
-  parent = "works-on-paper"
-  url = '/works-on-paper/under-the-banana-leaves-a-man/'
-  hasChildren = false
-  weight = 20
-
-[[menu.nav]]
   identifier = 'monkey'
   name = 'Monkey'
   title = "Monkey"
   parent = "works-on-paper"
   url = '/works-on-paper/monkey/'
-  hasChildren = false
-  weight = 20
-
-[[menu.nav]]
-  identifier = 'smells'
-  name = 'Smells'
-  title = "Smells"
-  parent = "works-on-paper"
-  url = '/works-on-paper/smells/'
   hasChildren = false
   weight = 20
 
