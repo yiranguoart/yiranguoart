@@ -1,3 +1,3 @@
-module github.com/etc/huey
+module github.com/yiranguoart/huey
 
 go 1.23.1
