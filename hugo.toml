@@ -3,10 +3,6 @@ languageCode = 'en-us'
 title = 'Yiran Guo'
 theme = 'huey'
 
-[module]
-  [[module.imports]]
-    path = 'github.com/etc/huey'
-
 [menu]
 
 # Top Navigation
