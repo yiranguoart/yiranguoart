@@ -1,6 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Yiran Guo'
+theme = 'huey'
 
 [module]
   [[module.imports]]
