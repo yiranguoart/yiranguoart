@@ -1,0 +1,3 @@
+[submodule "themes/huey"] 
+  path = themes/huey 
+  url = git://github.com/yiranguoart/huey.git
