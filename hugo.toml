@@ -121,15 +121,6 @@ theme = 'huey'
   weight = 20
 
 [[menu.nav]]
-  identifier = 'gaze'
-  name = 'Gaze'
-  title = "Gaze"
-  parent = "works-on-paper"
-  url = '/works-on-paper/gaze/'
-  hasChildren = false
-  weight = 13
-
-[[menu.nav]]
   identifier = 'faces-in-my-studio'
   name = 'Faces in My Studio'
   title = "Faces in My Studio"
