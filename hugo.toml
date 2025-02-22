@@ -55,7 +55,7 @@ theme = 'huey'
   parent = "works-on-paper"
   url = '/works-on-paper/xiang-prints/'
   hasChildren = false
-  weight = 10
+  weight = 9
   
 [[menu.nav]]
   identifier = 'eggs'
@@ -65,7 +65,16 @@ theme = 'huey'
   url = '/works-on-paper/eggs/'
   hasChildren = false
   weight = 20
-  
+
+[[menu.nav]]
+  identifier = 'spine'
+  name = 'Spine'
+  title = "Spine"
+  parent = "works-on-paper"
+  url = '/works-on-paper/spine/'
+  hasChildren = false
+  weight = 10
+      
 [[menu.nav]]
   identifier = 'soft-landing'
   name = 'Soft Landing'
